@@ -64,7 +64,7 @@ const Downpart = () => {
         </div>
 
         <div className="scheduling">
-          <h4>Today's schedule</h4>
+          <h4>Todays schedule</h4>
           <div className="first">
             <h3>Meeting with suppliers from Kuta Bali</h3>
             <p>14:00 - 15:00</p>
