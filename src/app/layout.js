@@ -16,10 +16,6 @@ export default function RootLayout({ children }) {
     <html lang="en">
     <head>
     
-    <link rel="preconnect" href="https://fonts.googleapis.com"/>
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat&family=Open+Sans:wght@300&display=swap" rel="stylesheet"/>
-   
       <body className={inter.className}>
       <AuthContextProvider>
       {children}
