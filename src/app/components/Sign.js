@@ -114,7 +114,7 @@ checkEmailVerificationAndRedirect();
       
       {/*------------------------------------End of Input Section ----------------------------------*/}
 
-        <h4>Don't have an account ? <a href="www"> Register here</a></h4>
+        <h4>Don`&apos;`t have an account ? <a href="www"> Register here</a></h4>
       </div>
 
       {/*------------------------------------End of Form Section ----------------------------------*/}
