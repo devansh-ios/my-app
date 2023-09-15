@@ -1,0 +1,116 @@
+.nav_line {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 85%;
+  margin: auto auto auto 12rem;
+}
+.card {
+  width: 190px;
+  height: 90px;
+  height: auto;
+  border-radius: 25px;
+}
+.card:hover {
+  box-shadow: 2px 5px 5px gray;
+}
+.card p,
+h4 {
+  width: 60%;
+  margin: -2px auto auto 10px;
+  font-family: var(--lato);
+  font-size: 14px;
+  font-weight: 800;
+  text-align: left;
+  line-height: normal;
+}
+.card h4 {
+  font-weight: bold;
+  font-family: var(--os);
+  margin: 5px auto 7px 15px;
+  font-size: 18px;
+}
+.card svg {
+  margin: 13px auto auto 150px;
+  width: 24px;
+  height: 24px;
+}
+.card:nth-child(1) {
+  background: #ddefe0;
+}
+.card:nth-child(2) {
+  background: #f4ecdd;
+}
+.card:nth-child(3) {
+  background: #efdada;
+}
+.card:nth-child(4) {
+  background: #dee0ef;
+}
+.navbar p {
+  font-family: var(--mon);
+  font-size: 24px;
+  font-weight: 700;
+  margin-left: 35px;
+}
+.navbar {
+  width: 80%;
+  margin-left: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.profile {
+  display: flex;
+  justify-content: space-around;
+  width: 35%;
+}
+.navbar input {
+  padding: 0.5rem;
+  border: none;
+  border-radius: 20px;
+}
+@media (max-width: 700px) {
+  .navbar {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    display:flex;
+    flex-direction:column;
+    
+  }
+ .nav_line{
+    justify-content: space-evenly;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap:1rem;
+    margin:0;
+    margin-left:1rem;
+
+ }
+
+  .card{
+    width:175px;
+    border:1px solid grey;
+
+  }
+  .profile{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    width:85%;
+align-items: center;
+margin:auto auto auto ;
+  }
+  .navbar input{
+    height:50px;
+    width:100px;
+    border-radius:10px;
+     padding:0;
+     margin:0;
+
+  }
+  .navbar p{
+    margin-left:0;
+  }
+}

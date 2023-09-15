@@ -1,10 +1,9 @@
- 
-import styles from './page.module.css'
-
+  import Sign from './components/Sign'
 export default function Home() {
   return (
-    <main className={styles.main}>
- 
+    <main >
+ <Sign/>
+
     </main>
   )
 }

@@ -1,0 +1,48 @@
+.input_labels{
+    border:  black;
+    background-color: white;
+    margin-top:5%;
+    border-radius:20px;
+    padding:20px;
+
+}
+label{
+
+    font-weight:bold;
+    font-size:16px;
+}
+input{
+    background:#F5F5F5;
+    border:none;
+    width:305px;
+    height:40px;
+    margin:10px auto 20px;
+    border-radius:10px;
+   
+}
+ input[type=email]{
+   font-size:1em;
+  padding-left:20px;
+ }
+ input[type=password]{
+    padding-left:20px;
+    font-size:1em;
+ }
+.sign_in{
+background-color: black;
+font-family: var(--mon);
+font-weight:bold;
+color:white;
+border:none;
+width:325px;
+border-radius: 10px;
+padding:10px;
+margin-top:5%;
+}
+.sign_in:hover{
+    box-shadow:2px 2px 10px black;
+    color:black;
+    background:white;
+    cursor:pointer;
+}
+ 
