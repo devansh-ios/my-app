@@ -30,7 +30,7 @@ const checkEmailVerificationAndRedirect = async () => {
       await user.reload();  
       if (user.emailVerified) {
        
-        router.push('/https://openinappsignin.netlify.app/dashboard');  
+        router.push('/dashboard');  
       }
     } else {
       router.push('/')
