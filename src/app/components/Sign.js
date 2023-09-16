@@ -30,7 +30,7 @@ const checkEmailVerificationAndRedirect = async () => {
       await user.reload();  
       if (user.emailVerified) {
        
-        router.push('/dashboard'); // Replace with your content page route
+        router.push('/https://openinappsignin.netlify.app/dashboard');  
       }
     } else {
       router.push('/')
@@ -114,7 +114,7 @@ checkEmailVerificationAndRedirect();
       
       {/*------------------------------------End of Input Section ----------------------------------*/}
 
-        <h4>Don`&apos;`t have an account ? <a href="www"> Register here</a></h4>
+        <h4>Don&apos;t have an account ? <a href="www"> Register here</a></h4>
       </div>
 
       {/*------------------------------------End of Form Section ----------------------------------*/}
